@@ -26,11 +26,11 @@ try {
   console.error("Unable to connect to the database:", error);
 }
 
-console.log('Database Config:', {
+console.log("Database Config:", {
   name: process.env.DB_NAME,
   user: process.env.DB_USER,
   password: process.env.DB_PASSWORD,
-  host: process.env.DB_HOST
+  host: process.env.DB_HOST,
 });
 
 export default sequelize;
